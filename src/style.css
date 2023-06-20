@@ -1,0 +1,40 @@
+:root {
+    --black: #282828;
+    --black-two: #3c3836;
+    --black-three: #504945;
+    --white: #ebdbb2;
+    --blue: #458588;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: var(--black-two);
+    border-style: solid;
+    border-color: var(--black-three);
+
+    padding: 10px;
+}
+
+a {
+    color: var(--blue);
+}
+
+/* index.html */
+
+#index-pfp {
+    float: right;
+    max-width: 50%;
+}
+
+#name {
+    text-align: center;
+}
