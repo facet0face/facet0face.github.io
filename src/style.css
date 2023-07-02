@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main-header {
+    text-align: center;
+}
+
+a {
+    color: cyan;
+}
+
+h3 {
+    display: inline;
+}
